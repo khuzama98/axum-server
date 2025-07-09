@@ -1,1 +1,22 @@
-/target
+# Rust
+/target/
+
+# Database files (local data)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Don't ignore migrations folder - it should be committed!
